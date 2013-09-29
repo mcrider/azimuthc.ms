@@ -1,68 +1,25 @@
 <template name="azimuth_home">
-  <div class="container">
-    <div class="row hero">
-      <div class="hero-text-container large-6 small-10 columns">
-        <h4 class="home-hero">{{{hero-header}}}</h4>
-      </div>
-    </div>
-    <div class="features-container">
-      <div class="row features">
-        <h2 class="home-heading">Features</h2>
-        {{{renderBlocks zone="features"}}}
-      </div>
-    </div>
-    <div class="installation-container">
-      <!--
-      <div class="row installation">
-        {{{installation}}}
-      </div>
-      -->
-      <div class="row installation">
-        <h2 class="home-heading">Getting started</h2>
-        <ol class="large-6 small-12 columns">
-          <li>
-            <h3>Install Prerequisites</h3>
-            <p>Install <a href="http://nodejs.org/download/">Node.js</a>, <a href="http://docs.meteor.com/">Meteor</a>, and <a href="http://oortcloud.github.io/meteorite/">Meteorite</a></p>
-          </li>
-          <li>
-            <h3>Create a project</h3>
-            <p>From the command line, run:</p>
-            <pre><code>mrt create my-project</code></pre>
-            <p class="note">*You can delete the generated my-project.html/css/js files</p>
-          </li>
-          <li>
-            <h3>Pick a front-end framework</h3>
-            <pre><code>mrt add azimuth-views-foundation</code></pre>
-            <p class='or'>or</p>
-            <pre><code>mrt add azimuth-views-bootstrap</code></pre>
-          </li>
-          <li>Install a <a href="/themes">theme</a> (optional)</li>
-        </ol>
-        <ol start="5" class="large-6 small-12 columns">
-          <li>
-            <h3>Add Azimuth Core</h3>
-            <pre><code>mrt add azimuth-core</code></pre>
-          </li>
-          <li>
-            <h3>Start your server</h3>
-            <pre><code>mrt</code></pre>
-          </li>
-          <li>
-            <h3>Create stuff</h3>
-            <p>Dive into <a href="/documentation">the documentation</a> for more help on getting started.  For assistance with creating new templates and such, check out the <a href="/development">developer's documentation</a>.
-          </li>
-          <li>
-            <h3>Publish</h3>
-            <p>Deploy your site to <a href="http://docs.meteor.com/#meteordeploy">Meteor's servers</a>, <a href="https://github.com/julien-c/meteoric.sh">Amazon EC2</a> or <a href="http://stackoverflow.com/questions/13504324/where-can-we-host-meteor-meteorite-applications">another server</a>.</p>
-          </li>
-        </ol>
-
-        <div class="large-12 columns github">
-          <h2>...</h2>
-          <p>Interested in working with bleeding edge code or contributing back to the project?  <a href="https://github.com/mcrider/azimuth">Clone Azimuth from github</a> and follow the steps above.  Fixing <a href='https://github.com/mcrider/azimuth/issues'>Issues</a> or creating features helps move the project forward!</p>
+  {{#with page}}
+    <div class="container">
+      <div class="row hero">
+        <div class="hero-text-container large-6 small-10 columns">
+          <h4 class="home-hero">{{{hero-header}}}</h4>
         </div>
       </div>
-    </div>
+      <div class="features-container">
+        <div class="row features">
+          <h2 class="home-heading">Features</h2>
+          {{{renderBlocks zone="features"}}}
+        </div>
+      </div>
+      <div class="installation-container">
 
-  </div>
+        <div class="row installation">
+          {{{installation}}}
+        </div>
+
+      </div>
+
+    </div>
+  {{/with}}
 </template>
