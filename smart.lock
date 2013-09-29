@@ -7,18 +7,18 @@
     "packages": {
       "azimuth-views-foundation": {
         "git": "https://github.com/mcrider/azimuth-views-foundation.git",
-        "tag": "v0.1.3",
-        "commit": "66110bee304cf7c6469da7d9cca11aa29e57abea"
+        "tag": "v0.1.4",
+        "commit": "2d44266243ec2158985dc767d951454c4c86e169"
       },
       "azimuth-core": {
         "git": "https://github.com/mcrider/azimuth-core.git",
-        "tag": "v0.1.9",
-        "commit": "55f073678119663f3264792370999f856a490071"
+        "tag": "v0.1.12",
+        "commit": "36c26d38382fdbb9a331bbb232a6a4566e33b39f"
       },
       "foundation": {
         "git": "https://github.com/ewall/meteor-foundation.git",
-        "tag": "v4.3.1",
-        "commit": "ecc55cd1ae470c902e010e5986a26c66e810d989"
+        "tag": "v4.3.2",
+        "commit": "4cd0dc6ac5c69bf7477917a836d9078262d273a0"
       },
       "underscore-string": {
         "git": "https://github.com/possibilities/meteor-underscore-string.git",
