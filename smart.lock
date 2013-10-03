@@ -2,23 +2,29 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "azimuth-views-foundation": {}
+      "azimuth-views-foundation": {},
+      "azimuth-theme-fn-simpleWhite": {}
     },
     "packages": {
       "azimuth-views-foundation": {
         "git": "https://github.com/mcrider/azimuth-views-foundation.git",
-        "tag": "v0.1.4",
-        "commit": "2d44266243ec2158985dc767d951454c4c86e169"
+        "tag": "v0.1.6",
+        "commit": "95c177b2f92c9ab01961d411696dd621385d65cc"
+      },
+      "azimuth-theme-fn-simpleWhite": {
+        "git": "https://github.com/mcrider/azimuth-theme-foundation-simpleWhite.git",
+        "tag": "v0.1.2",
+        "commit": "76af2b834be164527f3d4ece41f5c057672c0d17"
       },
       "azimuth-core": {
         "git": "https://github.com/mcrider/azimuth-core.git",
-        "tag": "v0.1.12",
-        "commit": "36c26d38382fdbb9a331bbb232a6a4566e33b39f"
+        "tag": "v0.1.14",
+        "commit": "d73b66cb788745383b956710cdb71e8c0cd54630"
       },
-      "foundation": {
-        "git": "https://github.com/ewall/meteor-foundation.git",
-        "tag": "v4.3.2",
-        "commit": "4cd0dc6ac5c69bf7477917a836d9078262d273a0"
+      "zurb-foundation": {
+        "git": "https://github.com/MixinLabs/meteor-foundation.git",
+        "tag": "v0.1.8",
+        "commit": "1df073584c45582ce9d6fe6a42aa46e5de39eb9c"
       },
       "underscore-string": {
         "git": "https://github.com/possibilities/meteor-underscore-string.git",

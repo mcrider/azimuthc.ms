@@ -1,5 +1,6 @@
 {
   "packages": {
-    "azimuth-views-foundation": {}
+    "azimuth-views-foundation": {},
+    "azimuth-theme-fn-simpleWhite": {}
   }
 }
