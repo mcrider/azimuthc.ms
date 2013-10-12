@@ -1,0 +1,13 @@
+<template name="theme_block_edit">
+  <div class="container block-edit">
+    <div class="row">
+      <div class="large-10 columns">
+        {{#with block}}
+          {{formHelper value=tag type="tag" label="Tag" fieldName="tag"}}
+          {{formHelper value=contents type="wysiwyg" label="Contents" fieldName="contents" }}
+        {{/with}}
+        &nbsp;
+      </div>
+    </div>
+  </div>
+</template>

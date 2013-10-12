@@ -1,0 +1,20 @@
+<template name="theme_list_edit">
+  {{#with page}}<div class="container page-edit">
+    <div class="row">
+      <div class="large-10 columns">
+            <h2>Editing "{{title}}"</h2>
+            <form class="form-horizontal" id="pageEditForm">
+            {{> page_template_selector }}
+    {{! FIXME: Above should be in a template (but meteor auto-closes opened tags in a template)}}
+    {{! Caution: Don't modify above this line unless you know what you're doing}}
+
+    {{! Page specific fields: Feel free to customize these and add/remove}}
+    {{blockZoneEditor zone="foundation" label="Foundation Theme Blocks"}}
+    {{blockZoneEditor zone="bootstrap" label="Bootstrap Theme Blocks"}}
+    {{! End page-specific fields }}
+
+    {{! Caution: Don't modify below this line unless you know what you're doing}}
+    {{> page_edit_bottom}}{{/with}}
+</template>
+
+
