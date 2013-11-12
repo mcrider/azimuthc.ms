@@ -8,8 +8,8 @@
     "packages": {
       "azimuth-views-foundation": {
         "git": "https://github.com/mcrider/azimuth-views-foundation.git",
-        "tag": "v0.1.9",
-        "commit": "797a36637d254e7e029802b6cc5f975d96c67c8b"
+        "tag": "v0.1.14",
+        "commit": "6ce66c7c9f5e0702abdc3d99a18676223b6d624c"
       },
       "azimuth-theme-fn-simpleWhite": {
         "git": "https://github.com/mcrider/azimuth-theme-foundation-simpleWhite.git",
@@ -18,13 +18,18 @@
       },
       "azimuth-core": {
         "git": "https://github.com/mcrider/azimuth-core.git",
-        "tag": "v0.1.16",
-        "commit": "a3c5972dcf6bbf6bbb2f4b4a2eac2b9720d14f39"
+        "tag": "v0.1.21",
+        "commit": "17e2d71a8183cac00b2f035bb06fd4daef66aa47"
       },
       "zurb-foundation": {
         "git": "https://github.com/MixinLabs/meteor-foundation.git",
         "tag": "v0.1.8",
         "commit": "1df073584c45582ce9d6fe6a42aa46e5de39eb9c"
+      },
+      "modernizr-meteor": {
+        "git": "https://github.com/ckir/modernizr-meteor.git",
+        "tag": "v2.6.2",
+        "commit": "391ca2a3beff3cd2b0e1099cb2d744b5a2e8a73e"
       },
       "underscore-string": {
         "git": "https://github.com/possibilities/meteor-underscore-string.git",
@@ -43,18 +48,23 @@
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.5.4",
-        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+        "tag": "v0.6.1",
+        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
       },
-      "filepicker": {
-        "git": "https://github.com/Filepicker/meteor.git",
-        "tag": "v0.3.0",
-        "commit": "dcb6f3779e5fc105520ba06b0392e3a79c73a7e6"
+      "collectionFS": {
+        "git": "https://github.com/raix/Meteor-CollectionFS.git",
+        "tag": "v0.3.6",
+        "commit": "e28922685d07fc2bd17e23571eeb050cd85176f7"
       },
       "analyticsjs": {
         "git": "https://github.com/nate-strauser/meteor-analyticsjs.git",
         "tag": "v0.1.2",
         "commit": "aded6d80df1f801d02076adbb3d64685ebb00f00"
+      },
+      "cfs-public-folder": {
+        "git": "https://github.com/nooitaf/meteor-cfs-public-folder.git",
+        "tag": "v0.0.3",
+        "commit": "f47a0f1963be82121c975f955196b1fbb0cdbca3"
       }
     }
   }
