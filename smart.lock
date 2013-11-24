@@ -8,8 +8,8 @@
     "packages": {
       "azimuth-views-foundation": {
         "git": "https://github.com/mcrider/azimuth-views-foundation.git",
-        "tag": "v0.1.14",
-        "commit": "6ce66c7c9f5e0702abdc3d99a18676223b6d624c"
+        "tag": "v0.2.0",
+        "commit": "96f43d1c84f6d439c98cf3c3abcb0b604ee32853"
       },
       "azimuth-theme-fn-simpleWhite": {
         "git": "https://github.com/mcrider/azimuth-theme-foundation-simpleWhite.git",
@@ -18,8 +18,8 @@
       },
       "azimuth-core": {
         "git": "https://github.com/mcrider/azimuth-core.git",
-        "tag": "v0.1.21",
-        "commit": "17e2d71a8183cac00b2f035bb06fd4daef66aa47"
+        "tag": "v0.2.0",
+        "commit": "8466d84efe5884d745bab289ad17403a9eb44d1d"
       },
       "zurb-foundation": {
         "git": "https://github.com/MixinLabs/meteor-foundation.git",
