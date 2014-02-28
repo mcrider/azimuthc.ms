@@ -64,7 +64,7 @@
       "cfs-public-folder": {
         "git": "https://github.com/nooitaf/meteor-cfs-public-folder.git",
         "tag": "v0.0.3",
-        "commit": "f47a0f1963be82121c975f955196b1fbb0cdbca3"
+        "commit": "581c716424b374efb6f611110002621f9cc9212b"
       }
     }
   }
