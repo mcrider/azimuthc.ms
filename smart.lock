@@ -3,28 +3,28 @@
   "dependencies": {
     "basePackages": {
       "azimuth-views-foundation": {},
-      "azimuth-theme-fn-simpleWhite": {}
+      "marked": {}
     },
     "packages": {
       "azimuth-views-foundation": {
         "git": "https://github.com/mcrider/azimuth-views-foundation.git",
-        "tag": "v0.2.0",
-        "commit": "96f43d1c84f6d439c98cf3c3abcb0b604ee32853"
+        "tag": "v0.3.2",
+        "commit": "95edad005eafc19331257bff8ba0a45357774a4b"
       },
-      "azimuth-theme-fn-simpleWhite": {
-        "git": "https://github.com/mcrider/azimuth-theme-foundation-simpleWhite.git",
-        "tag": "v0.1.4",
-        "commit": "84a9eab3bf8654c1278abe342d9f41b535f3f38b"
+      "marked": {
+        "git": "https://github.com/chuangbo/meteor-marked.git",
+        "tag": "v0.3.1",
+        "commit": "3d9a9c94793b20e1ee7c807931cb536010d6f820"
       },
       "azimuth-core": {
         "git": "https://github.com/mcrider/azimuth-core.git",
-        "tag": "v0.2.0",
-        "commit": "8466d84efe5884d745bab289ad17403a9eb44d1d"
+        "tag": "v0.3.4",
+        "commit": "d79354b14b24bb6b821a6d313cb2150265b3aead"
       },
       "zurb-foundation": {
         "git": "https://github.com/MixinLabs/meteor-foundation.git",
-        "tag": "v0.1.8",
-        "commit": "1df073584c45582ce9d6fe6a42aa46e5de39eb9c"
+        "tag": "v0.1.10",
+        "commit": "545234bc38f7a747a5d69b48f75c5cc77ca8382f"
       },
       "modernizr-meteor": {
         "git": "https://github.com/ckir/modernizr-meteor.git",
@@ -36,35 +36,28 @@
         "tag": "v2.2.0rc.1",
         "commit": "dec21fac23310daf76dc19f246749e7beb48af03"
       },
-      "font-awesome": {
-        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
-        "tag": "v3.2.1",
-        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
-      },
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.0.6",
-        "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
+        "tag": "v1.2.6",
+        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.1",
-        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+        "branch": "dev",
+        "commit": "d475c1afdd30ee2666b1067dd96ae6e4b583e70e"
       },
       "collectionFS": {
-        "git": "https://github.com/raix/Meteor-CollectionFS.git",
-        "tag": "v0.3.6",
-        "commit": "e28922685d07fc2bd17e23571eeb050cd85176f7"
+        "path": "../azimuth/packages/collectionFS"
       },
-      "analyticsjs": {
-        "git": "https://github.com/nate-strauser/meteor-analyticsjs.git",
-        "tag": "v0.1.2",
-        "commit": "aded6d80df1f801d02076adbb3d64685ebb00f00"
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "branch": "master",
+        "commit": "2664f817844fba0fab0455a79bc62782c9091ad0"
       },
       "cfs-public-folder": {
         "git": "https://github.com/nooitaf/meteor-cfs-public-folder.git",
         "tag": "v0.0.3",
-        "commit": "581c716424b374efb6f611110002621f9cc9212b"
+        "commit": "f47a0f1963be82121c975f955196b1fbb0cdbca3"
       }
     }
   }

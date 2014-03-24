@@ -3,21 +3,19 @@
     <div class="container">
       <div class="row hero">
         <div class="hero-text-container large-6 small-10 columns">
-          <h4 class="home-hero">{{{hero-header}}}</h4>
+          <h4 class="home-hero">Azimuth is a simple + speedy CMS that harnesses the power of&nbsp;<a href="http://meteor.com/">Meteor.js</a>.</h4>
         </div>
       </div>
       <div class="features-container">
         <div class="row features">
           <h2 class="home-heading">Features</h2>
-          {{{renderBlocks zone="features"}}}
+          {{> renderBlocks zone="website"}}
         </div>
       </div>
       <div class="installation-container">
-
         <div class="row installation">
-          {{{installation}}}
+          {{> renderBlocks zone="installation"}}
         </div>
-
       </div>
 
     </div>
