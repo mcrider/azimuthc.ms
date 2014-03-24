@@ -46,8 +46,8 @@ p, body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5em;
+  margin-bottom: 20px;
+  max-width: 73.5em;
 
   &.expanded {
     .title-area {
@@ -80,9 +80,13 @@ p, body {
       background: white;
 
       li a:not(.button) {
+        font-family: 'Trykker', sans-serif;
         text-transform: uppercase;
         color: #bbcccc;
         background: white;
+        &:hover {
+          background: white;
+        }
       }
 
       &.left {
