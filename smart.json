@@ -1,6 +1,7 @@
 {
   "packages": {
     "azimuth-views-foundation": {},
-    "marked": {}
+    "marked": {},
+    "apm": {}
   }
 }
